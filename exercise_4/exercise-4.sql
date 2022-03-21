@@ -11,3 +11,4 @@ FROM
   ON customer.address_id = address.address_id
   LEFT JOIN city
   ON city.city_id = address.city_id
+  

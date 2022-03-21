@@ -10,5 +10,3 @@ FROM
   LEFT JOIN category
   ON film_category.category_id = category.category_id
   WHERE category.name='Action'
-  
-

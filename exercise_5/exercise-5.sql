@@ -8,3 +8,4 @@ FROM film
   LEFT JOIN actor
   ON actor.actor_id = film_actor.actor_id
   WHERE actor.last_name='Davis'
+  
